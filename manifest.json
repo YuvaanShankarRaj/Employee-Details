@@ -1,0 +1,16 @@
+{
+    "name": "Employee Details App",
+    "short_name": "EmployeeApp",
+    "description": "A simple employee details",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#87CEEB",
+    "icons": [
+        {
+            "src": "image.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ]
+}

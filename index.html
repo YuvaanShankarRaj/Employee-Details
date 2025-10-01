@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <link rel="manifest" href="manifest.json">
+    </head>
+    <body>
+        <header>
+            <h1>Employe Details</h1>
+        </header>
+
+        <div class="section">
+            <h2>Add New Employe</h2>
+            <div id="empname">
+              <label for="empName">Employe Name:</label>
+              <input type="text" id="empName" placeholder="Enter a name">
+            </div>
+
+           <div id="empid">
+              <label for="empId">Employe ID:</label>
+              <input type="number" id="empId" placeholder="Enter a employe ID">
+           </div>
+
+           <div id="empsal">
+              <label for="empSal">Employe Salary:</label>
+              <input type="number" id="empSal" placeholder="Enter a employe salary">
+           </div>
+
+           <button onclick="submitfun()">Submit</button>
+           <button onclick="reset()">Clear All</button>
+           <div class="display">
+            <button onclick="display()">Display</button>
+           </div>
+        </div>
+        <script src="index.js"></script>
+        <footer>
+            <p>Contact us : <a href="tel:9791025376">9791025376</a></p>
+        </footer>
+    </body>
+</html>
