@@ -4,5 +4,5 @@ Language :
 * JSON
 * JS
 
-Simple employe details uploading PWA
+Simple employe details uploading
 PWA = Progressive Web Application
